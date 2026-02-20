@@ -1,6 +1,6 @@
 # rlget — Rate‑Limited CLI Downloader (Stdlib‑Only)
 
-This is a beginner-friendly command-line tool that downloads one or more URLs carefully:
+This is a command-line tool that downloads one or more URLs carefully:
 - Global **rate limit** (X requests per second)
 - **Concurrency** (several downloads at once)
 - **Retries** with exponential backoff (and respects Retry-After)
