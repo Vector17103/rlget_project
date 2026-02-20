@@ -1,0 +1,2 @@
+[console_scripts]
+rlget = rlget.cli:main

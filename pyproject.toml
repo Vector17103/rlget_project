@@ -1,0 +1,17 @@
+# Allows to install a rlget command
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rlget"
+version = "0.1.0"
+description = "Rate-limited CLI downloader with retries, timeouts, and tests (stdlib only)."
+authors = [{ name = "Achyut Niroula" }]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.scripts]
+# Lets you run `rlget` in the terminal after `pip install -e .`
+rlget = "rlget.cli:main"

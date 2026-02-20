@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.env/
+venv/
+
+# OS files
+.DS_Store
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+.Readmeme.md
+
+downloads/
+
+RLGET_Study_Guide.docx
